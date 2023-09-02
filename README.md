@@ -7,3 +7,4 @@
 - 6379: redis
 - 8001: api.muscleman - nginx
 - 4000: api.msucleman - node
+- 3000: muscleman - node

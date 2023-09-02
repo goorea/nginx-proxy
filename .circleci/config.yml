@@ -10,7 +10,7 @@ workflows:
     jobs:
       - aws-code-deploy/deploy:
           application-name: nginx-proxy
-          bundle-bucket: nginx-proxy-deploy
+          bundle-bucket: nginx-proxy-deploy2
           deployment-group: default
           bundle-key: nginx-proxy-zip
           service-role-arn: hyungseok
